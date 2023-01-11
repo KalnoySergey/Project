@@ -1,11 +1,33 @@
 package MainPackage;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        line();
+        Scanner scan = new Scanner(System.in);
 
+        int a = 5;
+        int b = 6;
+        int sum = a+b;
+        System.out.println(sum);
+        line();
+
+        a = scan.nextInt();
+        b = scan.nextInt();
+        sum=a+b;
+        System.out.println(sum);
+        line();
+        if(sum>0){
+            System.out.println("sum > 0");
+        }
+        else{
+            System.out.println("sum<=0");
+        }
+        line();
     }
-
+    public static void line(){
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+    }
 }
 
 /* extends - наследование
