@@ -3,7 +3,23 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        queue a = new queue (5);
+
         int i = 1;
+
+        while(!a.is_full()) {
+            a.add(i);
+            i++;
+        }
+        while(!a.is_empty()){
+            System.out.println(a.remove());
+        }
+    }
+    public static void line(){
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+    }
+}
+/*int i = 1;
         stack a = new stack(5);
 
         while(!a.is_full()){
@@ -13,13 +29,7 @@ public class Main {
 
         while(!a.is_empty()){
             System.out.println(a.subtract());
-        }
-    }
-    public static void line(){
-        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-    }
-}
-
+        }*/
 /* extends - наследование
    super - наследуемые поля/методы
    abstract - Абстрактные класс/метод
