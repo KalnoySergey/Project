@@ -3,27 +3,17 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        line();
-        Scanner scan = new Scanner(System.in);
+        int i = 1;
+        stack a = new stack(5);
 
-        int a = 5;
-        int b = 6;
-        int sum = a+b;
-        System.out.println(sum);
-        line();
+        while(!a.is_full()){
+            a.add(i);
+            i++;
+        }
 
-        a = scan.nextInt();
-        b = scan.nextInt();
-        sum=a+b;
-        System.out.println(sum);
-        line();
-        if(sum>0){
-            System.out.println("sum > 0");
+        while(!a.is_empty()){
+            System.out.println(a.subtract());
         }
-        else{
-            System.out.println("sum<=0");
-        }
-        line();
     }
     public static void line(){
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
