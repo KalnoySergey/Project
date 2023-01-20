@@ -1,5 +1,5 @@
 package MainPackage;
-import java.util.*;
+import MainPackage.Structures.queue;
 
 public class Main {
     public static void main(String[] args) {

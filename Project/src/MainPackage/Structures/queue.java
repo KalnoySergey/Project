@@ -1,4 +1,4 @@
-package MainPackage;
+package MainPackage.Structures;
 
 public class queue {
     private int[] q_arr;

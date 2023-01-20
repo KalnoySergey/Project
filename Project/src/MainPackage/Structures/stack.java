@@ -1,4 +1,4 @@
-package MainPackage;
+package MainPackage.Structures;
 public class stack {
     private int max;
     private int []s_arr;

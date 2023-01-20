@@ -1,4 +1,4 @@
-package MainPackage;
+package MainPackage.World;
 import java.util.Objects;
 public class Human {
     int height = 0;

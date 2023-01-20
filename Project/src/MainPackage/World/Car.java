@@ -1,4 +1,4 @@
-package MainPackage;
+package MainPackage.World;
 public class Car {
     private String name; //mark
     private String codename; //model
